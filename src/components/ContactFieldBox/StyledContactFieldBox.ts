@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const StyledContactFieldBox = styled.div`
   .switchContact {
     display: flex;
-    margin-top: 20px;
-    transform: translateY(10px);
+    margin-top: 15px;
+    transform: translateY(5px);
   }
   
   .fieldBox {
@@ -16,7 +16,7 @@ export const StyledContactFieldBox = styled.div`
       background-color: #555;
       color: #fff;
       border: none;
-      padding: 11px 8px;
+      padding: 9px;
       width: 100%;
       border-radius: 4px;
       box-sizing: border-box;

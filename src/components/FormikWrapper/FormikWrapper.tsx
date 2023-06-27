@@ -95,6 +95,7 @@ export const FormikWrapper: FC = () => {
         }
 
         console.log(formData)
+        alert('All is good! See your entered data in console!')
     }
 
     return (

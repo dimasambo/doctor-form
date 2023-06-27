@@ -6,7 +6,7 @@ export const StyledSelect = styled(StyledFieldBox)`
     background-color: #555;
     color: #fff;
     border: none;
-    padding: 11px 8px;
+    padding: 9px;
     width: 100%;
     border-radius: 4px;
     transition: .1s;

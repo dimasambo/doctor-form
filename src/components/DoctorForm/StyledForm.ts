@@ -6,27 +6,33 @@ export const DarkForm = styled(Form)`
   color: #fff;
   padding: 20px;
   border-radius: 8px;
-  width: 500px;
+  width: 430px;
   margin: 0 auto;
   
-  .submitButton {
+  @media(max-width: 550px) {
     width: 300px;
-    margin-top: 25px;
+  }
+  
+  .submitButton {
+    width: 250px;
+    margin-top: 15px;
   }
 `;
 
 export const DarkLabel = styled.label`
   color: #fff;
   display: block;
-  margin-bottom: 3px;
-  margin-top: 15px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 3px;
 `;
 
 export const DarkInput = styled(Field)`
   background-color: #555;
   color: #fff;
   border: none;
-  padding: 11px 8px;
+  padding: 9px;
   width: 100%;
   border-radius: 4px;
   box-sizing: border-box;
@@ -44,7 +50,7 @@ export const DarkInput = styled(Field)`
 export const DarkButton = styled.button`
   background-color: #777;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -58,7 +64,8 @@ export const DarkButton = styled.button`
 export const DarkActiveButton = styled.button`
   background-color: #777;
   color: #fff;
-  padding: 8px 16px;
+  padding: 3px 16px;
+  font-size: 14px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -73,6 +80,5 @@ export const DarkActiveButton = styled.button`
 
 export const ErrorText = styled.div`
   color: #ff7f7f;
-  font-size: 14px;
-  margin-top: 4px;
+  font-size: 11px;
 `;
